@@ -1,40 +1,25 @@
-/*
 public class JackOLantern
 
 {
-    private String a;
-    private String b;
-    private String c;
-    private String d;
-    private String e;
+    private String[][] faceFeatures;
 
-    public static String[][] constructA(String a,String b,String c,String d,String e)
+    public JackOLantern(String[][] faceFeatures)
     {
-        this.a=a;
-        this.b=b;
-        this.c=c;
-        this.d=d;
-        this.e=e;
+        this.faceFeatures=faceFeatures;
     }
-
-    public String getA() {
-        return this.a;
+    public void edit(String replace,int row,int column)
+    {
+        this.faceFeatures[row][column]=replace;
     }
-
-    public String getB() {
-        return this.b;
+    public void fill(String str)
+    {
+        
     }
-
-    public String getC() {
-        return this.c;
-    }
-
-    public String getD() {
-        return this.d;
-    }
-
-    public String getE() {
-        return this.e;
+    public String toString()
+    {
+        for(int m=0;m<faceFeatures.length;m++)
+        {
+            System.out.println();
+        }
     }
 }
-*/
