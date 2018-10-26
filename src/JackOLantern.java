@@ -15,7 +15,7 @@ public class JackOLantern
     {
         for(int m=0;m<faceFeatures.length;m++)
         {
-            for(int k=0;k<faceFeatures[m];k++)
+            for(int k=0;k<faceFeatures[m].length;k++)
             {
                 faceFeatures[m][k]=str;
             }
