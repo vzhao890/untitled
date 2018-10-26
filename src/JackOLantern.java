@@ -13,13 +13,16 @@ public class JackOLantern
     }
     public void fill(String str)
     {
-        
+        for(int m=0;m<faceFeatures.length;m++)
+        {
+            for(int k=0;k<faceFeatures[m];k++)
+            {
+                faceFeatures[m][k]=str;
+            }
+        }
     }
     public String toString()
     {
-        for(int m=0;m<faceFeatures.length;m++)
-        {
-            System.out.println();
-        }
+
     }
 }
